@@ -1,0 +1,16 @@
+You don't need to know syntax of JS by heart, so here is a cheat sheet for that:
+https://reasonml.github.io/guide/javascript/syntax-cheatsheet/
+In left column you have examples of usage of JavaScript elements.
+There is also cheat sheet for git in this folder
+
+ToDo:
+(For git you can use graphical tool eg. Source Tree or console git)
+1. Clone GIT repository somewhere in your machine (git clone)
+2. Checkout to "theory" branch if not checked already (git checkout)
+3. Create your new branch theory_YOUR_NAME and checkout to it (git branch, git checkout)
+4. Answer questions in theoretical quiz: theory.txt
+5. Commit your quiz file and push it (git add, git commit, git push)
+6. Checkout to "practice" branch
+7. Create new branch practice_YOURN_NAME and checkout to it (git branch, git checkout)
+8. Write all missing programs in .js files 
+9. Commit and push your changes (git add, git commit, git push)

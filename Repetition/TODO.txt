@@ -1,0 +1,32 @@
+1. Pull (or clone) repository (from github)
+	In some directory on your local machine open terminal and use command:
+	- git clone https://github.com/mtwarog/qa_training_repetition.git 
+2. Create new branch
+	Go into newly created folder and open terminal there
+	- git branch feature-new-XX (where XX are your initials)
+	- git checkout feature-new-XX
+3. Do simple JS exercises
+	- console
+	- variables
+	- ifs
+	- loops
+	- functions
+4. Add changes to index (place where "to be commited" stuff resides)
+	- git add <file_name.js> (add only one file, different than your teammates!)
+5. Commit (save changes in local repository)
+	- git commit -m "ST-XXX: Message about commit" (or without -m if you want to write more verbose message)
+6. Push* (send changes to remote server called 'origin')
+	- git push origin feature-new-XX
+7. Fetch all changes of other people from remote
+	- git fetch --all
+	- git pull --all
+8. Checkout to master branch
+	- git checkout master
+9. Check branches of other people
+	- git branch
+10. Merge all feature branches into master
+	- git merge feature-new-XX (for all XX)
+11. Check history (git log)
+12. Check what exactly was changed in last commits (git show)
+	- git show xxxxxxxx... (show what was changed within this commit)
+	

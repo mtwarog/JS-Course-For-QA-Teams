@@ -1,0 +1,85 @@
+There might be more than one correct answer to each question!
+Put "X" at beginning of line if answer is correct
+
+Quiz:
+1. Which of below is correct variable declaration?
+a) var text = "I like trains";
+b) text = 12;
+c) let x;
+d) var [12,22] = x;
+
+2. What will be the result of "SomeSentence".substr(3,11) ?
+a) Sentence
+b) eSentence
+c) eSentenc
+d) code is incorrect
+
+3. What will be returned by below function call?
+function doubleSum(numberOne, numberTwo) {
+	var result = (numberOne + numberTwo) * 2;
+	return result;
+}
+console.log(doubleSum(doubleSum(2, 3), 2));
+a) 14
+b) 12
+c) 24
+d) this code will throw error
+
+4. What will be saved in variable oneElement in below code:
+var someNumbers = [12,22,321,22,44]
+var oneElement = someNumbers[2+2]
+a) 12
+b) 22
+c) 321
+d) 44
+
+5. Will this function throw some error?
+function sample() {
+	for (var i = 0; i < 10; i++) {
+		var j = 100;
+		console.log(i);
+	}
+}
+console.log(j);
+sample();
+a) yes
+b) no
+c) yes in this case, but it depends on value of j
+
+6. What will be last logged value by below loop?
+for (var i = 0; i < 10; i++) {
+	var j = 100;
+	console.log(i);
+}
+a) 1
+2) 9
+3) 10
+4) 0
+
+7. What value will be saved in variable?
+var variable = "some;Text;and;word".split(";").length;
+a) 3
+b) 4
+c) 15
+d) the code is incorrect
+
+8. What will be logged from below code?
+var isCorrect = true || false || false;
+if (true) {
+	if (isCorrect && true) {
+		console.log(1);
+	} else {
+		console.log(2);
+	}
+} else {
+	console.log(3);
+}
+a) 1
+b) 2
+c) 3
+d) code is incorrect
+
+Open questions:
+11. Write one line of code which will print result of 1274*192.22 to console
+12. Write one line of code which will save second word from string "OneTwoThree" to variable called two
+13. Write one line of code which will log to console last element of table [12,22,"Black"]

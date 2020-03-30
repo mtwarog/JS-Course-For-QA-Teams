@@ -1,0 +1,1 @@
+// Write "Smartassistant" text to console.
